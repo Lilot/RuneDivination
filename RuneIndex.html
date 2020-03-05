@@ -5,16 +5,18 @@
     <title>Rune Fortune Telling</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <!--Google Font --->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marke|Indie+Flower|Lobster&" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <!---Font Awesome--->
+   <script src="https://kit.fontawesome.com/5adcd4d774.js" crossorigin="anonymous"></script>
 
 
   </head>
   <body class="frame">
 
-    <div class="container-fluid">
+    <div class="container-fluid top-container">
       <h1>Rune Reading</h1>
 
     <div class="row">
@@ -24,38 +26,73 @@
         <p class="instruct">Take a calming breath, concentrate on your question.
           Click on the bag to draw a single stone. </p>
 
-
           <div  class="container container-fluid pouch">
           <img class= "img1" src=" images/pouch1.png" alt="pouch_image">
           <button  class = "btn">Draw a Stone</button>
           </div>
       </div>
-
       <div class="pic col-lg-6  result">
           <p class = "answer"> For best results,
           only draw one rune a day and don't ask the same question or variation
-          of the same question over and over. <br />
-            <br />  Meditate ..
+          of the same question over and over.  .... Meditate ....<br />
           </p>
         <p>
           The rune has spoken..
         </p>
         <div class="container container-fluid rune">
         <img class = "img2" src="images/0Rune.png" alt="rune_image">
-        </div>
-        <p class= "newQuestion">
-        <button type="button" class="btn btn-info btn-reset" input="reset" value ="reset"
-         onclick="window.location.reload()">Ask another Question.</button>
 
-        </p>
+        <button type="button" class="btn btn-info rbtn"
+         onclick="window.location.reload()">
+         Ask another Question.</button>
       </div>
 
    </div>
 
+  </div>
+
+
+
+  <div class="bottom-container">
+      <h1> Share ...</h1>
+    <div class=row>
+
+      <div class="share-box col-lg-4 ">
+       <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Flilot.github.io%2FRuneDivination%2FRuneIndex.html">
+       <i class="icon fab fa-facebook-square fa-5x"></i>
+     </a>
+       </div>
+
+       <div class="share-box col-lg-4 ">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Flilot.github.io%2FRuneDivination%2FRuneIndex.html&text=I%20got%20my%20Rune%20Reading%20Today&hashtags=RuneDivination,Rune">
+        <i class="icon fab fa-twitter-square fa-5x"></i>
+        </a>
+      </div>
+
+      <div class="share-box col-lg-4 ">
+       <a href='mailto:?subject=Rune Divination&body=https://lilot.github.io/RuneDivination/RuneIndex.html'>
+       <i class="icon fas fa-envelope-square fa-5x"></i>
+       </a>
+     </div>
+
+     <!-- <div class="share-box col-lg-3 ">
+      <a href='mailto:?subject=Rune Divination&body=https://lilot.github.io/RuneDivination/RuneIndex.html'>
+      <i class="icon far fa-comment-alt fa-5x"></i>
+      </a>
+    </div> -->
+
     </div>
+
+
+
+ </div>
+
+
+
+  <br />
    <footer>
-     This is for entertainment purpose only.
-     <p>© 2019 Amparo Smith.</p>
+     <p class="ftnote">This is for entertainment purpose only.</p>
+     <p class="ftnote">© 2019 Amparo Smith.</p>
    </footer>
 
 
@@ -69,7 +106,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 
-      </body>
+
 
 
     </html>
