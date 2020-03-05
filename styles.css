@@ -65,6 +65,22 @@ body {
 }
 
 
+.container-img2 .rune {
+  margin: 10% 30%;
+  padding-bottom: 50%;
+}
+
+.rbtn{
+  margin: 10%;
+  font-family: 'Indie Flower', cursive;
+  padding: 30% 20%;
+}
+
+
+.container-btn .rbtn:hover {
+background-color: #DE6B35;
+
+}
 
 
 h1 {
@@ -118,22 +134,22 @@ p {
 
 .img2{
  margin: auto;
+ padding: 5%;
  text-align: center;
  height: 150px;
  width: 500px;
+ position: relative;
 
 }
 
 
-.rbtn{
-  margin-top: 10%;
-}
+
 
 .bottom-container{
   background-color: #DE6b35;
-  margin: auto;
+  margin:  auto;
   padding: auto;
-  position: relative;
+
 }
 
 
