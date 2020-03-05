@@ -134,7 +134,7 @@ p {
 
 .img2{
  margin: auto;
- padding: 5%;
+ padding: 5%, 2.5%;
  text-align: center;
  height: 150px;
  width: 500px;
@@ -149,6 +149,7 @@ p {
   background-color: #DE6b35;
   margin:  auto;
   padding: auto;
+  text-align: center;
 
 }
 
