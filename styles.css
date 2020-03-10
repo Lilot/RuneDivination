@@ -101,6 +101,8 @@ h3{
   font-size: 15rem;
 }
 
+
+
 p {
   font-size: 1.5rem;
   color: #64CCDA;
@@ -147,8 +149,8 @@ p {
 
 .bottom-container{
   background-color: #DE6b35;
-  margin:  auto;
-  padding: auto;
+  margin: 50%, auto;
+  padding: 20%, auto;
   text-align: center;
 
 }
@@ -186,6 +188,70 @@ p {
 
 
 }
+.btn {
+  font-family: 'Indie Flower', cursive;
+
+}
+/*--Comment Section-- */
+.comment-container {
+  background-color: white;
+  text-align: center;
+}
+
+.sign-in{
+  text-align: center;
+  max-width: 330px;
+  margin: 0 auto;
+
+}
+
+label {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+
+}
+.noob{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+/* Filter Comment */
+
+.filter-box{
+  font-family: 'Indie Flower', cursive;
+}
+
+
+/* Comment Post */
+.main-comment{
+  text-align: center;
+  background-color: #8F4426;
+  padding: 5%;
+
+}
+.cardComment{
+  text-align: center;
+  position:absolute;
+  margin: auto 15% ;
+}
+.person{
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.card-text{
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  font-size: normal;
+
+}
+
 .ftnote{
   color: #64ccda;
   text-align: center;
@@ -195,6 +261,7 @@ p {
 }
 footer {
   margin: auto;
+  padding-top: 5%;
   color: #64ccda;
   text-align: center;
   font-family: 'Indie Flower', cursive;
