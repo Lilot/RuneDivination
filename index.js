@@ -1,4 +1,4 @@
-
+//written by Amparo Smith 
 
 var runeStone = Math.random() * 24;
 runeStone = Math.floor(runeStone) + 1;
