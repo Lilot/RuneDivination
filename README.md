@@ -1,3 +1,7 @@
+A Divination web app that uses Northern European alphabet called a Rune.
+This is a fun fortune telling game app. Enjoy.
+
+
 # RuneDivination
 3/5/2020
 Update the main page to include sharing the page with social media and email. (twitter, facebook and link to email.)
